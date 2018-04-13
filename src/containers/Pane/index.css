@@ -1,0 +1,10 @@
+.Pane
+{
+    width: calc(25% - 12px);
+    height: calc(25% - 12px);
+    margin: 5px;
+
+    border: 1px solid;
+    border-radius: 20px;
+    background-size: cover;
+}
