@@ -34,6 +34,7 @@ const PaneList = ({ panes, clicked, showPane }) => {
           <TwitterIcon size={32} round={true} />
         </TwitterShareButton>
         <span> {clicked} 回クリックしました</span>
+        <a href="https://github.com/KilledByNLP/shukatsu">Show GitHub</a>
       </div>
       <div className="PaneList">
         {panes.map(pane => {
